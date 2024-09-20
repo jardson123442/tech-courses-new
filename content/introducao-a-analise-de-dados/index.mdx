@@ -1,0 +1,300 @@
+---
+title: 'Introdução a Análise de Dados'
+description: Como é trabalhar como Analista de Dados?.
+image: '../../public/blogs/analise-de-dados-1024x683.webp'
+publishedAt: '2023-11-27'
+updatedAt: '2023-11-27'
+author: 'Júlia Nutti'
+isPublished: true
+tags:
+  - analise-de-dados
+  - python
+  - BI
+  - Analytics
+  - tech
+---
+
+# Introdução a Análise de dados
+
+# Análise de Dados
+
+A análise de dados é o processo de examinar, limpar, transformar e interpretar conjuntos de dados brutos para assim descobrir padrões, tendências, informações úteis para ajudar na tomada de decisões com base nas descobertas, resolver problemas complexos otimizando processos do dia a dia e nos ajudar a criar um planejamento estratégico para prever resultados futuros. Resumindo, a análise de dados ajuda empresas de diversos segmentos a tomarem decisões mais embasadas e consequentemente melhorar seus resultados.
+
+Na era dos dados, realizar análises é a estratégia mais poderosa dentro de uma empresa, capaz de revolucionar a sua tomada de decisão. Isso justifica o fato de que empresas orientadas por dados podem crescer mais de 30% ao ano, segundo o relatório da Forrester.
+
+As empresas estão usando os dados a seu favor, veja alguns exemplos:
+
+**Negócios**: Ajuda as empresas a entenderem seus clientes, otimizar operações e tomar decisões estratégicas. Exemplo: Uma empresa de comércio eletrônico analisa o histórico de compras de seus clientes para identificar os produtos mais vendidos em determinada estação do ano. Com base nisso, eles ajustam seu estoque e criam estratégias de marketing para maximizar as vendas durante esses períodos.
+
+**Ciência e pesquisa**: Os dados permitem a descoberta de novos conhecimentos e avanços científicos. Exemplo: Um laboratório de pesquisa analisa dados de ensaios clínicos para determinar a eficácia de um novo medicamento. Eles utilizam análise de estatística para identificar se o medicamento teve um impacto estatisticamente significativo em comparação com um grupo de controle.
+
+**Saúde**: Auxilia no diagnóstico de doenças, análise de tratamentos e prevenção de epidemias. Exemplo: Um hospital analisa dados de pacientes, como histórico médico, exames e resultados de testes para prever o risco de uma pessoa desenvolver uma condição específica, como diabetes. Isso ajuda na intervenção precoce e no tratamento personalizado.
+
+**Tecnologia**: Alimenta o desenvolvimento de IA, aprendizado de máquina e análise preditiva. Exemplo: Uma empresa de redes sociais utiliza análise de dados para recomendar conteúdo personalizado aos usuários com base em seu interesses e interações anteriores.
+
+## **O processo de transformação dos dados**
+
+Atualmente, o volume de dados ao qual temos acesso é enorme. São inúmeras as informações que circulam em redes internas e externas e que fazem parte do cotidiano de milhões de pessoas. As empresas utilizam esses dados para suas operações constantemente, em diversos setores, gerando mais dados a cada instante. Por dia são gerados milhões de dados e se torna um minério de informação, ou seja, um material a ser trabalhado para se tornar algo maior e mais valioso. Os dados por si só não servem de muita coisa se não forem convertidos para informações que sejam realmente úteis.
+
+A transformação de dados em informações é a ação mais importante dentro da área de análise de dados, pois são essas informações que irão guiar o processo de tomada de decisão. O processo de transformação de dados consiste em seis momentos diferentes:
+
+**Perguntar**
+
+**Preparar**
+
+**Processar**
+
+**Analisar**
+
+**Compartilhar**
+
+**Agir.**
+
+Vamos dar contexto a essas palavras citadas acima dentro do mundo dos dados:
+
+### **Perguntar**
+
+Nesta fase existem duas prioridades: Definir o problema a ser resolvido e entender as expectativas das partes interessadas. Literalmente, você precisará fazer perguntas para entender todo o cenário, para definir o problema se faz necessário observar o estado atual e identificar o estado ideal. As partes interessadas serão a sua principal fonte de informações, pois são eles que vão passar exatamente qual o objetivo da análise, a comunicação com eles é fundamental durante todo o processo para garantir que você permaneça envolvido no caminho certo, mantendo sempre o foco no problema em si e não nos sintomas.
+
+Um bom analista de dados precisa ser um bom desenvolvedor de estratégias e ter comunicação forte, pois serão perguntas bem colocadas estrategicamente que o ajudará a entender todo o cenário para aí então poder prosseguir com o processo de transformações de dados.
+
+**Dica valiosa:**
+
+Não importa o quanto você tenha de informações ou quão avançadas sejam suas ferramentas, os dados por si só não dirão muito se você não começar com as perguntas adequadas. Imagine-se como um detetive com uma infinidade de evidências, mas que não faz as perguntas necessárias aos principais suspeitos. Isso comprometeria o sucesso da investigação.
+
+E é exatamente por isso que é crucial aprender a fazer perguntas altamente eficazes, evitando algumas práticas comuns. Uma das abordagens mais conhecidas é a metodologia SMART, que garante a formulação de perguntas específicas, mensuráveis, orientadas para a ação, relevantes e com duração definida.
+
+**Vamos a um exemplo prático?**
+
+Imagine a seguinte pergunta problemática: "Quais são os recursos que as pessoas procuram ao comprar um carro novo?" Agora, vamos transformá-la em perguntas SMART:
+
+**Específica**: A pergunta foca em um recurso específico do carro?
+
+**Mensurável**: A pergunta inclui um sistema de classificação dos recursos?
+
+**Orientada para a ação**: A pergunta influencia a criação de novos pacotes de recursos?
+
+**Relevante**: A pergunta identifica quais recursos são decisivos na compra de um carro?
+
+**Com duração definida**: A pergunta valida os dados sobre os recursos mais populares nos últimos três anos?
+
+Observe como essas perguntas SMART abordam diferentes aspectos do problema e proporcionam respostas valiosas e mensuráveis.
+
+É importante também evitar algumas armadilhas ao fazer perguntas. Evite perguntas sugestivas, que induzam uma única resposta. Em vez disso, faça perguntas abertas, que permitam respostas mais elaboradas e variadas. Evite também perguntas fechadas, que solicitem apenas respostas curtas. Busque fazer perguntas que incentivem as pessoas a compartilharem suas experiências e opiniões de forma mais detalhada. Por fim, evite perguntas vagas, que não sejam específicas ou não forneçam contexto. Certifique-se de que suas perguntas sejam claras e direcionadas ao assunto em questão.
+
+### **Preparar**
+
+A preparação de dados consiste na coleta dos dados e na escolha de qual tecnologia você irá armazenar seus dados. Um dos principais objetivos da preparação de dados é garantir que as informações resultantes serão precisas e consistentes, permitindo assim uma análise válida e realista.
+
+Essa etapa se inicia com a coleta dos dados necessários para realizar sua análise, os dados que serão coletados serão definidos a partir das perguntas feitas anteriormente para chegar ao objetivo solicitado. Os dados podem ser coletados de diversas formas diferentes: Entrevistas, observação, formulários, questionários, pesquisas, cookies (rastreiam as atividades e interesses online). Sempre priorizando utilizar fontes seguras, as seguintes perguntas podem ajudar nesse processo:
+
+Quem criou esse conjunto de dados?
+
+É parte de uma organização confiável?
+
+Quando esses dados foram atualizados?
+
+Algumas fontes muito utilizadas são: Dados públicos examinados, artigos acadêmicos, dados financeiros e dados de agências governamentais. Se o conjunto de dados for confiável, original, abrangente, atual e citado, pode ter certeza, sua análise terá um nível de confiabilidade muito maior.
+
+Após coletar seus dados entramos no processo de armazenamento e isso irá depender, principalmente, da quantidade de dados que será utilizado. Dependendo do volume de dados você poderá escolher qual será a ferramenta ideal para o seu projeto, vamos falar brevemente sobre duas ferramentas muito utilizadas para análise de dados: Planilhas e bancos de dados.
+
+As planilhas são uma ótima escolha quando se tem um conjunto de dados pequeno, mas caso seu volume de dados seja maior um banco de dados com linguagem de consulta será o mais adequado.
+
+### **Processar**
+
+Essa etapa do processo, mais conhecida como “limpeza dos dados”, é extremamente importante pois será nela que vamos tratar os nossos dados. No dia a dia de um analista de dados é muito comum se deparar com dados duplicados, desatualizados, incompletos, incorretos ou inconsistentes e todos esses problemas podem resultar em uma análise errada, vamos imaginar o seguinte cenário:
+
+Aqui nós temos uma planilha onde consta o valor vendido diariamente em uma loja de roupas:
+
+<Image
+  src="/blogs/Captura_de_tela_2023-11-27_213303.png"
+  width="718"
+  height="404"
+  alt="Image"
+  sizes="100vw"
+/>
+
+Observamos que o padrão diário de vendas está entre R$100,00 a R$800,00 mas analisando a planilha, observamos que na linha oito, coluna B o valor da venda está R$2800,00. Como analista de dados você precisará ter o discernimento de encontrar padrões e na maioria das vezes o que foge do padrão pode ser um erro.
+
+Consultando a dona da loja a mesma informou que havia se confundido e que na verdade a venda daquele dia foi de R$280,00.
+
+<Image
+  src="/blogs/Captura_de_tela_2023-11-27_213442.png"
+  width="718"
+  height="404"
+  alt="Image"
+  sizes="100vw"
+/>
+
+Essa diferença de valor poderia ter causado uma conclusão errada, então essa etapa de processamento dos dados serve exatamente para isso, para observar os erros (que muitas vezes são causados por nós humanos) para que nossa análise tenha o melhor resultado possível.
+
+Quando optarmos por utilizar planilhas vamos precisar usar fórmulas que nos ajudará a formatar, limpar, tirar dados duplicados e etc. As planilhas são ótimas para a organização e limpeza dos dados.
+
+Caso nossos dados estejam em um banco de dados relacional, nós utilizaremos consultas utilizando a linguagem SQL - Structured Query Language (Linguagem de consulta estruturada), ela nos permite alterar um banco de dados conforme a nossa vontade, realizando diversas funções para chegarmos ao objetivo que nossa análise precisa.
+
+### **Analisar**
+
+É nesse momento que vamos virar detetives. Isso mesmo, detetives. Os dados nos contam histórias e é preciso ter algumas habilidades para entendermos o que eles têm a nos dizer. Vejamos algumas dessas habilidades:
+
+**Pensamento estruturado**: É o processo de reconhecer o problema ou a situação atual, organizar as informações disponíveis, revelar lacunas e oportunidades e identificar opções para assim poder tirar conclusões úteis, fazer previsões e orientar na tomada de decisão. O pensamento estruturado é uma habilidade valiosa dentro da análise de dados, ele nos ajudará a evitar erros e garante que você esteja usando os dados de maneira eficaz.
+
+**Curiosidade**: Essa habilidade é de extrema importância em toda e qualquer área que você desejar se aprofundar, pois é a curiosidade que nos move, que nos faz ir atrás de entender um pouco mais sobre determinado assunto e quando você se dá conta, já virou um expert. Na análise de dados é de extrema importância que o analista seja curioso ao olhar um conjunto de dados, sempre se perguntando “que história meus dados estão me contando? ” e também “como os meus dados me ajudarão a resolver esse problema?”, são perguntas como estas que nos ajudam a ver o que ninguém mais vê.
+
+**Compreender com quais dados você está trabalhando**: Normalmente os analistas de dados trabalham com dois tipos de dados: Dados quantitativos e os dados qualitativos.
+
+Os dados quantitativos em sua natureza numérica, são representados por números inteiros (como a quantidade de produtos vendidos em uma loja) ou números decimais (como a temperatura em graus Celsius). Esses dados também nos permitem fazer medições, análise estatística e eles têm um alto nível de precisão, uma vez que são expressos numericamente. Isso permite uma análise detalhada e a realização de cálculos precisos.
+
+Já os dados qualitativos são baseados em características e não em números. Em vez disso, eles descrevem características, qualidades ou atributos de um objeto, pessoa, evento ou fenômeno. Exemplos de dados qualitativos incluem: respostas abertas em pesquisas, descrição de observação, categorias de produtos em um site/loja e qualquer tipo de informação que envolva características não numéricas.
+
+Ter clareza dos dados que se tem para trabalhar é de extrema importância pois são eles que vão te guiar até o seu objetivo.
+
+**Pensamento crítico**: Ser capaz de avaliar de forma crítica os resultados da análise, identificar possíveis vieses e considerar as limitações dos dados é essencial. Vieses na análise de dados refere-se a desvios sistemáticos e não aleatórios que podem distorcer os resultados de uma análise.
+
+### **Compartilhar**
+
+Após termos analisado nossos dados e termos tirado todo o nosso ouro (insights) deles, chegou a hora de compartilharmos nossas descobertas com as partes interessadas (as partes interessadas são todos aqueles que investiram tempo, interesse e recursos no projeto, como por exemplo o CEO de uma empresa, que quer tomar uma decisão e antes disso contratou um analista para guiar esse processo).
+
+Nesse momento nós vamos precisar de três habilidades: comunicação, interpretação dos resultados e visualização.
+
+Ter comunicação forte é extremamente importante para um analista de dados, pois uma comunicação eficaz ajuda a transmitir os resultados e insights de forma clara e compreensível. Isso evita mal-entendidos e interpretações errôneas. Além disso, é muito importante existir transparência, uma comunicação aberta e transparente sobre os métodos utilizados e sobre as conclusões extraídas a partir desses processos dará credibilidade ao seu trabalho e passará confiança às partes interessadas na hora da sua apresentação.
+
+A interpretação dos resultados é uma etapa crítica, onde você analisa e dá significado aos dados coletados. Nesse momento de compartilhar as informações o analista precisa estar com a interpretação dos resultados bem nítida e clara em sua cabeça para poder transmitir o que foi extraído da análise.
+
+A visualização é o processo de transformar nossas planilhas em algo visual para facilitar o entendimento de todos os envolvidos, vejamos na prática:
+
+<Image
+  src="/blogs/Captura_de_tela_2023-11-27_214333.png"
+  width="718"
+  height="404"
+  alt="Image"
+  sizes="100vw"
+/>
+
+<Image
+  src="/blogs/Captura_de_tela_2023-11-27_214413.png"
+  width="718"
+  height="404"
+  alt="Image"
+  sizes="100vw"
+/>
+
+Ambas as imagens passam as mesmas informações, mas o gráfico foi mais fácil e intuitivo de se compreender como foi crescendo o número de casos ao decorrer do mês, não foi?
+
+A visualização é nossa melhor amiga, quando for decidir quais recursos usar nesse momento é importante se perguntar “Como posso apresentar meus dados de forma envolvente e fácil de entender? “ e “O me ajudaria a entender isso se eu fosse um ouvinte?”
+
+É importante termos em mente que a parte de visualização dos dados é uma técnica essencial, que envolve representar informações complexas ou abstratas por meio de elementos visuais, como:
+
+- Gráfico de área.
+- Gráfico de barras.
+- Gráfico de caixa.
+- Gráfico de marcador.
+- Exibição de círculos.
+- Mapa de distribuição de pontos.
+
+Investir em uma boa visualização das informações dará credibilidade na hora da sua apresentação.
+
+### **Agir**
+
+Hora de colocar a mão na massa!
+
+A etapa final do processo de transformação de dados é a ação a partir dos insights extraídos na análise com o objetivo de resolver o problema.
+
+Nesse momento será definido o planejamento de ações, colocando em prática as soluções planejadas, isso envolve criar um plano detalhado que inclui quem, o quê, quando e como as ações serão executadas. Isso envolve atribuição de responsabilidades e a alocação de recursos necessários.
+
+É necessário criar uma documentação para registrar todas as ações tomadas e seus resultados. Além disso, comunicar sempre os progressos e resultados para as partes interessadas relevantes.
+
+A etapa “agir” é crucial para garantir que as melhorias sejam efetivamente implementadas e que os objetivos do projeto sejam alcançados, é uma fase dinâmica que pode exigir ajustes contínuos para garantir o sucesso do projeto de melhoria.
+
+E assim, finalizamos o processo de análise de dados com excelência em nosso resultado!
+
+Seguir esse passo a passo é essencial por várias razões como:
+
+**Foco nos objetivos**: Começar com perguntas ajuda a definir claramente os objetivos da análise, evitando a coleta de dados desnecessários.
+
+**Qualidade dos dados**: A etapa de preparação garante que os dados estejam limpos, consistentes e prontos para análise, o que é crucial para obter resultados precisos.
+
+**Eficiência**: O processamento de dados eficiente economiza tempo e recursos, tornando todo o processo mais eficaz.
+
+**Tomada de decisão informada**: A análise fornece insights valiosos que ajudam na tomada de decisões embasadas em dados.
+
+**Compartilhamento de conhecimentos**: Compartilhar resultados com partes interessadas promove a colaboração e a disseminação de informações relevantes.
+
+**Ação imediata**: O último passo, a ação, é crucial para transformar insights em mudanças positivas e melhorias nos processos ou estratégias.
+
+Em resumo, seguir esse processo ajuda a garantir que a análise de dados seja conduzida de forma criteriosa e assertiva.
+
+## **Mercado de data**
+
+Vamos explorar as carreiras que a vasta área de análise de dados tem:
+
+**Engenheiro de dados**
+
+Imagine que você tem um grande livro cheio de números, mas que está todo bagunçado. Os números estão escritos em diferentes idiomas, em diferentes formatos e não há nenhuma ordem. Um engenheiro de dados é a pessoa que sabe como organizar esse livro e torná-lo mais fácil de usar.
+
+Os engenheiros de dados são importantes porque eles ajudam as pessoas a acessar e usar os dados. Eles tornam os dados mais organizados, confiáveis e seguros.
+
+Remuneração: A média salarial de Engenheiro De Dados é de R$ 18.000 por mês nessa localidade (Brasil). A remuneração variável de Engenheiro De Dados em Brasil é de R$ 10.000, variando entre R$ 4.389 e R$ 20.000. As estimativas de salários têm como base 1885 salários enviados de forma sigilosa ao Glassdoor por pessoas com o cargo de Engenheiro De Dados nessa localidade (Brasil).
+
+**Cientista de dados**
+
+Imagine que você tem um grande livro cheio de números. Esses números podem ser sobre qualquer coisa, como as vendas de uma loja, o clima ou o número de pessoas que moram em uma cidade. Um cientista de dados é a pessoa que sabe como ler esse livro e encontrar informações importantes nele. Os cientistas de dados são importantes porque eles podem ajudar as pessoas a entender o mundo ao seu redor. Eles podem usar os números para tomar decisões melhores, resolver problemas e até mesmo prever o futuro.
+
+Remuneração: A média salarial de Cientista De Dados é de R$ 28.140 por mês nessa localidade (Brasil). A remuneração variável de Cientista De Dados em Brasil é de R$ 19.600, variando entre R$ 10.000 e R$ 30.000. As estimativas de salários têm como base 2137 salários enviados de forma sigilosa ao Glassdoor por pessoas com o cargo de Cientista De Dados nessa localidade (Brasil).
+
+**Analista de dados**
+
+Imagine que você tem um grande livro cheio de números, mas que você não sabe o que eles significam. Um analista de dados é uma pessoa que sabe como interpretar esses números e encontrar informações úteis neles. Os analistas de dados são importantes porque eles ajudam as pessoas a entender o mundo ao seu redor. Eles podem usar os números, interpretar dados e comunicar resultados.
+
+Remuneração: A média salarial de Analista De Dados é de R$ 11.600 por mês nessa localidade (Brasil). A remuneração variável de Analista De Dados em Brasil é de R$ 7.000, variando entre R$ 3.567 e R$ 16.500. As estimativas de salários têm como base 1642 salários enviados de forma sigilosa ao Glassdoor por pessoas com o cargo de Analista De Dados nessa localidade (Brasil).
+
+**Outras carreiras:**
+
+_BI – Business Intelligence_
+
+_Analyst Logistic_
+
+_Marketing Analyst_
+
+_Machine Learning Engineer_
+
+_Data Architect_
+
+## **Trilha de conhecimento para entrar na área de Data Analystic**
+
+Aqui irei apresentar uma sugestão de trilha de conhecimento que abrange os principais conceitos, habilidades e tecnologias para iniciar na área dos dados:
+
+Excel: É a porta de entrada para a maioria dos analistas de BI. Sendo assim, um conhecimento básico é o mínimo requerido para um analista de BI. Explore as referências da documentação oficial da Microsoft para se aprofundar no assunto:
+
+[https://support.microsoft.com/en-us/excel](https://support.microsoft.com/en-us/excel)
+
+Estatística e matemática básica: Estatística, probabilidade, matemática básica são temas necessários para qualquer analista ou cientista dentro da área de dados. Livro: Estatística: O que é, para que serve, como funciona. [https://www.amazon.com.br/gp/product/8537815128/ref=ox_sc_saved_image_2?smid=A1ZZ FT5FULY4LN&psc=1](https://www.amazon.com.br/gp/product/8537815128/ref=ox_sc_saved_image_2?smid=A1ZZ)
+
+Formação SQL: Aprender a principal linguagem de consulta para bancos de dados relacionais é de extrema importância para consultar banco de dados e extrair informações dos mesmos.
+
+[https://www.dio.me/curso-sql](https://www.dio.me/curso-sql)
+
+Formação Power BI Analyst: Através dos recursos visuais conseguimos absorver 80% de informação. Com outros recursos nossa assimilação do conteúdo reduz. Sendo assim, para ser assertivo precisamos criar relatórios e dashboards interativos considerando nosso público alvo. Mergulhe na formação Power BI Analyst para impressionar clientes e colaboradores.
+
+[https://web.dio.me/track/formacao-power-bi-analyst](https://web.dio.me/track/formacao-power-bi-analyst)
+
+Formação Python Developer: Python é a linguagem padrão quando falamos de dados. Portanto, se você quer ser um analista de dados ou cientista precisa aprender Python. Sua ampla gama de bibliotecas tornam a principal linguagem utilizada por analistas e cientistas. Contudo, Python é uma linguagem de programação de propósito geral. Sendo assim, Python é utilizado para diversos outras finalidades.
+
+[https://web.dio.me/track/formacao-python-developer](https://web.dio.me/track/formacao-python-developer)
+
+**_Lembre-se de que a prática constante e a aplicação dos conhecimentos em projetos reais são cruciais para o sucesso na área de Data Analystics. Boa sorte em sua jornada!_**
+
+## Referências
+
+Google, Coursera. Análise de Dados. Disponivel em: [https://www.coursera.org/programs/data-](https://www.coursera.org/programs/data-) analytics . Acesso em 20 de setembro 2023.
+
+Cortex Portal. O que é análise de dados? Saiba tudo sobre o tema! Cortex Portal, 2022. Disponivel em: [https://www.cortex-intelligence.com/blog/inteligencia-de-mercado/o-que-e-](https://www.cortex-intelligence.com/blog/inteligencia-de-mercado/o-que-e-) analise-de-dados . Acesso em 25 de setembro 2023.
+
+Alves, Ezequiel. Perguntas SMART e a importância de uma análise de dados eficaz nos negócios de hoje. Linkedin, 2023. Disponivel em: < https://www.linkedin.com/pulse/perguntas-smart-e- >
+
+import%C3%A2ncia-de-uma-an%C3%A1lise-dados-eficaz-alves/?originalSubdomain=pt . Acesso em 25 de setembro 2023.
+
+Guerra, Brno. O que é preparação de dados e qual sua importância?. Inteligência de Negócios, 2020. Disponível em: [https://blog.in1.com.br/o-que-e-preparacao-de-dados-e-qual-sua-importancia](https://blog.in1.com.br/o-que-e-preparacao-de-dados-e-qual-sua-importancia) . Acesso em 25 de setembro 2023.
+
+Nascimento, Rebeca. 8 CARREIRAS EM DADOS QUE ESTÃO EM DESTAQUE NO MERCADO. Tera Blog, [s.d.]. Disponível em: [https://blog.somostera.com/data-science/carreiras-em-dados-](https://blog.somostera.com/data-science/carreiras-em-dados-) em-destaque-no-mercado . Acesso em 25 de setembro 2023.
+
+GLASSDOOR. Buscar salários e compensações. GLAASSDOOR, 2008-2023. Disponível em: [https://www.glassdoor.com.br/Salários/index.htm](https://www.glassdoor.com.br/Sal%C3%A1rios/index.htm) . Acesso em 25 de setembro 2023.

@@ -1,0 +1,143 @@
+---
+title: 'Introdução a Inteligência Artificial 🤖'
+description: Como é trabalhar como Desenvolvedor de IA?.
+image: '../../public/blogs/mfrack_photo_of_AI_f1840775-fd5a-4b53-b14e-841e2582b137-1024x574.jpeg'
+publishedAt: '2023-11-27'
+updatedAt: '2023-11-27'
+author: 'João Witor'
+isPublished: true
+tags:
+  - IA
+  - tech
+  - analise-de-dados
+  - rpa
+  - python
+---
+
+# Introdução a Inteligência Artificial 🤖
+
+tags: ai, analise de dados, python, rpa, tech
+slug: introdução-a-inteligencia-artificial
+
+# Fala Dev,
+
+Nesse minicurso, você irá aprender o que caracteriza-se sendo o **Machine Learning** e o que essa nova área da tecnologia, vêm desenvolvendo e disponibilizando para a sociedade contemporânea**:**
+
+## **Introdução ao Machine Learning e seu Desenvolvimento:**
+
+O aprendizado de máquina (em inglês, _machine learning_) é fundamentalmente um método de [análise de dados](https://www.sas.com/pt_br/insights/analytics/analytics.html) que automatiza a construção de modelos analíticos. É um ramo da [inteligência artificial](https://www.sas.com/pt_br/insights/analytics/inteligencia-artificial.html) baseado na ideia de que sistemas podem **aprender** com dados, identificar padrões e tomar decisões com o mínimo de intervenção humana.
+
+Nas últimas décadas, os avanços tecnológicos tanto em armazenamento quanto em processamento de Dados, possibilitou a criação e expansão de adversos mecanismos e produtos inovadores baseados em aprendizado de máquina, desde o algoritmo de recomendação das redes sociais até os carros autônomos projetados por Big Techs, tal qual, a Tesla.
+
+## Como funciona a carreira IA:
+
+Além de trabalhar no desenvolvimento de algoritmos, o especialista em inteligência artificial pode atuar no gerenciamento e na manutenção, mas, antes de mais nada, é necessário verificar se você tem afinidade com a área, que envolve muitos conhecimentos de tecnologia da informação.
+
+Atualmente há grandes projetos e sistemas que trabalham com inteligência artificial, como o GPT-3, um sistema baseado em machine learning e desenvolvido pela **OpenAI** que tem capacidade de escrever diferentes tipos de gêneros textuais, os chatbots, que automatizam conversas e agilizam o atendimento e a plataforma de serviços cognitivos da IBM, Watson.
+
+Como a base da inteligência artificial são os algoritmos, é essencial curtir Matemática. Conceitos que vão desde teoria da probabilidade até álgebra linear estão presentes no desenvolvimento de produtos tais como _machine learning_, algoritmos que utilizam Big Data para aprender sozinhos.
+
+Ter uma bagagem de programação também é essencial para entrar nesse segmento. Especialistas recomendam o conhecimento de linguagens como Python, C ou C++ para aplicar algoritmos e criar produtos envolvendo inteligência artificial.
+
+Segue abaixo um exemplo prático de um script em Python(não ironicamente feito por uma IA), que possui como função principal desenvolver uma IA:
+
+```python
+#Libs
+import nltk
+from nltk.tokenize import word_tokenize
+from nltk.corpus import stopwords
+from nltk.stem import PorterStemmer
+import random
+
+nltk.download('punkt')
+nltk.download('stopwords')
+
+class SimpleChatbot:
+	def **init**(self, name):
+	[self.name](http://self.name/) = name
+	self.responses = {
+	"oi": "Olá! Como posso ajudar?",
+	"como você está": "Eu sou uma IA, não tenho emoções, mas obrigado por perguntar!",
+	"adeus": "Até logo! Se precisar de mais alguma coisa, estou aqui.",
+	"você gosta de programar": "Eu não tenho preferências, mas fui projetado para ajudar com programação. Como posso ajudar você?"
+	}
+
+ self.stop_words = set(stopwords.words('portuguese'))
+    self.stemmer = PorterStemmer()
+
+def preprocess_text(self, text):
+    words = word_tokenize(text.lower())
+    words = [self.stemmer.stem(word) for word in words if word.isalnum() and word not in self.stop_words]
+    return set(words)
+
+def respond(self, user_input):
+    user_words = self.preprocess_text(user_input)
+    best_response = "Desculpe, eu não entendi. Pode reformular a pergunta?"
+
+    for key in self.responses:
+        key_words = self.preprocess_text(key)
+        if user_words.intersection(key_words):
+            best_response = self.responses[key]
+            break
+
+    return best_response
+
+while True:
+	user_input = input("Você: ")
+		if user_input.lower() == 'sair':
+		print(f"{my_chatbot.name}: Até logo!")
+	break
+	response = my_chatbot.respond(user_input)
+	print(f"{my_chatbot.name}: {response}")
+```
+
+## Oportunidades de Carreiras na Área:
+
+- **AI no campo do Desenvolvimento de Interfaces:** Os Devs utilizam inteligência artificial para executar tarefas de maneira mais eficiente e dinâmica. Ao invés de realizar repetidas vezes de maneira manual a mesma atividade, por que não simplesmente automatiza-la mediante a construção de um script? conectar-se com clientes, identificar padrões e resolver problemas, tudo de maneira automatizada. Ao começar a usar a inteligência artificial para criar um aplicativo, é útil começar pequeno. Construindo um projeto relativamente simples, como o Jogo da velha, por exemplo, você aprenderá os conceitos básicos da inteligência artificial.
+
+- **AI no campo Empresarial:** A tecnologia de IA está melhorando o desempenho e a produtividade das empresas, automatizando processos ou tarefas que antes exigiam energia humana. A IA também pode dar sentido aos dados em uma escala que nenhum humano jamais conseguiria. Essa habilidade pode retornar benefícios comerciais substanciais. Por exemplo, a [Netflix usa _machine learning_ para fornecer um nível de personalização](https://www.linkedin.com/pulse/how-netflix-uses-ai-data-conquer-world-mario-gavira/) que ajudou a empresa a aumentar sua base de clientes em mais de 25%.
+
+  De acordo com a **[Harvard Business Review](https://hbr.org/2017/04/how-companies-are-already-using-ai)**, as empresas estão usando principalmente a IA para:
+
+  - Detectar e impedir intrusões de segurança (44%)
+  - Resolver problemas de tecnologia dos usuários (41%)
+  - Reduzir o trabalho de gerenciamento de produção (34%)
+  - Avaliar a conformidade interna ao usar fornecedores aprovados (34%)
+
+- **AI na Saúde**: O desenvolvimento atual da IA na área da saúde ainda é inicial, com potencial futuro imprevisível. Mas já tem auxiliado os profissionais da saúde a se conectarem facilmente com a pacientes em áreas remotas, onde o acesso a recursos e médicos é limitado.
+  A tecnologia está transformando a forma como nos relacionamos com o mundo e assumindo papel cada vez mais relevante em um País como o Brasil, de vasto território e com diversos desafios de acesso à assistência à saúde. Projetos como a Saúde Digital, do Hospital das Clínicas da Universidade de São Paulo (USP), exemplificam como a estrutura tecnológica pode conectar profissionais de saúde a pacientes em áreas remotas, como as comunidades ribeirinhas da região amazônica, onde o acesso a recursos e médicos é limitado. Essa capacidade de alcançar e auxiliar populações desassistidas é uma das incríveis contribuições das novas tecnologias no campo da saúde, com tendência a se tornar cada vez mais presente na vida daqueles que habitam essas regiões.
+
+  ## **Trilha de Conhecimento para o Machine Learning:**
+
+  Além de toda uma variedade de aplicações, o **Machine Learning** possui diversos modos de ser incorporado e estruturado, sendo seus modelos baseados em três fundamentos principais:
+
+  - **Machine Learning Supervisionado:** Também conhecido como aprendizado supervisionado, é definido pelo uso de conjuntos de dados rotulados para treinar algoritmos que classificam dados ou predizem resultados com precisão. Conforme os dados de entrada são alimentados no modelo, ele ajusta suas pontuações até que esteja ajustado de maneira adequada. Isso ocorre como parte do processo de validação cruzada para garantir que o modelo evita [super ajuste](https://www.ibm.com/br-pt/topics/overfitting), alguns exemplos de aprendizado supervisionado são os modelos de Redes Neurais, florestas aleatórias e regressão linear.
+
+  - **Machine Learning Não Supervisionado:** O [aprendizado não supervisionado](https://www.ibm.com/br-pt/topics/unsupervised-learning), também conhecido como machine learning não supervisionado, usa algoritmos de machine learning para analisar e agrupar conjuntos de dados não rotulados. Esses algoritmos descobrem padrões ocultos ou agrupamentos de dados sem a necessidade de intervenção humana.
+
+  - **Machine Learning Semisupervisionado:** O aprendizado semissupervisionado oferece um bom meio-termo entre o aprendizado supervisionado e o não supervisionado. Durante o treinamento, ele usa um conjunto de dados rotulado menor para orientar a classificação e a extração de recursos de um conjunto de dados maior e não rotulado.
+    Além de trabalhar no desenvolvimento de algoritmos, o especialista em inteligência artificial pode atuar no gerenciamento e na manutenção, mas, antes de mais nada, é necessário verificar se você tem afinidade com a área, que envolve muitos conhecimentos de tecnologia da informação.
+
+  ## Salários na Área:
+
+  - **Especialista em AI:** Uma das profissões mais promissoras do mercado, o profissional especialista em IA atua na criação, treinamento e testagem de sistemas de inteligência artificial. Entre as habilidades necessárias estão o conhecimento avançado em linguagem de programação, habilidades em matemática, estatística, algoritmos e estruturas de dados. Segundo o site _Indeed_, o salário costuma variar entre R$3 mil e R$18 mil.
+
+  - **Desenvolvedor de Chatbot:** O desenvolvedor está presente no processo de criação de bots, projetando e implementando a ferramenta para diversos fins. Ele trabalha diretamente com algoritmos de IA e, para atuar de forma eficiente, precisa ter amplo conhecimento em linguagens de programação, experiência em desenvolvimento de software e habilidade para entender as necessidades do usuário. Salários variam de R$ 4 mil a R$ 12 mil.
+
+  ## Repercussão em Sociedade:
+
+  Porém, como nem tudo são flores, a implementação do **Machine Learning** na sociedade contemporânea também levantou uma série de preocupações éticas em torno das tecnologias de IA. Sendo alguns dos principais tópicos:
+
+  - **A Singularidade Tecnológica** (Tá aí o Musk e o Monark de prova): Embora este tópico atraia muita atenção do público, muitos pesquisadores não estão preocupados com a ideia de a IA ultrapassar a inteligência humana em um futuro próximo ou imediato. A singularidade tecnológica também é chamada de IA forte ou superinteligência. O filósofo Nick Bostrum define a superinteligência como "qualquer intelecto que supera amplamente os melhores cérebros humanos em praticamente todas as áreas, incluindo criatividade científica, sabedoria geral e habilidades sociais". Apesar do fato de que a superinteligência não é iminente na sociedade, a ideia de sua existência levanta algumas questões interessantes quando consideramos o uso de sistemas autônomos, como carros autônomos.
+
+  - **O Impacto da IA no mercado de Trabalho**: Embora grande parte da percepção pública em torno da inteligência artificial esteja relacionada à redução de empregos, essa preocupação provavelmente deverá assumir novos formatos. A cada nova tecnologia disruptiva, vemos que a demanda do mercado por funções de tarefa específicas também muda. Por exemplo, quando olhamos para o mercado automotivo, muitos fabricantes, como a GM, estão mudando para se concentrar na produção de veículos elétricos para se alinhar às iniciativas verdes. O mercado de energia não acabará, mas a fonte de energia está mudando de uma economia de combustíveis fósseis para energia elétrica. Da mesma forma, a inteligência artificial mudará a demanda por empregos para outras áreas. Deverá haver indivíduos para ajudar a gerenciar sistemas de IA. Ainda haverá necessidade de contratar pessoas para resolver problemas mais complexos dentro dos setores que são mais prováveis de serem afetados por mudanças na demanda de tarefas, como atendimento ao cliente. O maior desafio da inteligência artificial e seu efeito no mercado de trabalho será ajudar as pessoas na transição para novas funções que estão em demanda.
+
+  - **Privacidade**: A privacidade tende a ser discutida no contexto de privacidade, proteção e segurança de dados. Essas preocupações permitiram que a legislação avançasse mais nos últimos anos. Por exemplo, em 2016, a legislação GDPR foi criada para proteger os dados pessoais de pessoas na European Union and European Economic Area, dando aos indivíduos mais controle sobre seus dados. Nos Estados Unidos, alguns estados estão criando políticas, como o _California Consumer Privacy Act_ (CCPA), que surgiu em 2018 e exige que as empresas informem os consumidores sobre a coleta de seus dados. Legislações como essa obrigaram as empresas a repensar a forma como armazenar e usar informações pessoalmente identificáveis (PII). Como resultado, os investimentos em segurança se tornaram uma prioridade cada vez maior para as empresas, à medida que buscam eliminar quaisquer vulnerabilidades e oportunidades de inspeção, invasão de hackers e ataques cibernéticos.
+
+  - **Preconceito e Discriminação**: Casos de preconceito e discriminação em vários sistemas inteligentes levantaram muitas questões éticas relacionadas ao uso da inteligência artificial. Como podemos nos proteger contra o preconceito e a discriminação quando os próprios dados de treinamento podem ser gerados por processos humanos com desvios? Embora as empresas normalmente sejam bem-intencionadas em relação aos seus esforços de automação, a [Reuters](https://www.reuters.com/article/us-amazon-com-jobs-automation-insight/amazon-scraps-secret-ai-recruiting-tool-that-showed-bias-against-women-idUSKCN1MK08G) ) destaca algumas das consequências inesperadas da incorporação de IA nas práticas de contratação. Em seu esforço para automatizar e simplificar um processo, a Amazon, involuntariamente discriminou candidatos a vagas por gênero para funções técnicas e, no final das contas, tiveram que descartar o projeto.
+
+  - **AI como Obrigatoriedade Estratégica e Vantagem Competitiva**: A IA está sendo usada na política de diversas formas, incluindo a criação de perfis de candidatos, análise de opinião pública e estratégias de campanha. Os políticos e partidos utilizam dados coletados por meio de redes sociais, aplicativos e outros meios para criar perfis de consumidores com base em informações como idade, localização, políticas controladas e até mesmo hábitos de consumo.
+
+Esses perfis são então úteis para segmentar clientes em grupos e desenvolver campanhas personalizadas para cada um deles. A IA também pode ser útil para analisar a opinião pública, coletando e analisando dados de mídias sociais e outros canais para identificar as preocupações dos ouvintes. Essa análise pode ajudar a moldar a mensagem do político ou partido para atender às preocupações do eleitorado. Um dos maiores riscos é a privacidade dos dados. A coleta de dados por meio de aplicativos e redes sociais pode ser invasiva e as empresas podem compartilhar informações com outras organizações sem o conhecimento ou consentimento do usuário. Além disso, há preocupações sobre a manipulação dos ouvidos, como o uso de notícias falsas e outras técnicas de propaganda para influenciar a opinião pública.
+
+Em última análise, a inteligência artificial é uma ferramenta poderosa que tem o potencial de resolver problemas complexos, melhorar a eficiência e a qualidade de vida, e impulsionar a inovação. No entanto, seu uso responsável e ético é fundamental para garantir que os benefícios sejam maximizados e os riscos minimizados. O futuro da IA será moldado pela colaboração entre especialistas em tecnologia, legisladores, éticos e a sociedade como um todo, à medida que trabalhamos juntos para aproveitar ao máximo o potencial da inteligência artificial
