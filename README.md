@@ -1,6 +1,6 @@
 # Run Project
-1 Step - npm install --legacy-peer-deps
-2 Stap - npm run dev
+1 - Step - npm install --legacy-peer-deps <br />
+2 - Stap - npm run dev
 
 # Next.js 13 Blog Tutorial: Build SEO Optimized Personal Blog with Next.js, Contentlayer, and Tailwind CSS 🔥
 
