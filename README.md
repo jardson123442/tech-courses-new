@@ -1,3 +1,7 @@
+# Run Project
+1 Step - npm install --legacy-peer-deps
+2 Stap - npm run dev
+
 # Next.js 13 Blog Tutorial: Build SEO Optimized Personal Blog with Next.js, Contentlayer, and Tailwind CSS 🔥
 
 ![GitHub stars](https://img.shields.io/github/stars/codebucks27/Nextjs-tailwindcss-blog-template?style=social&logo=ApacheSpark&label=Stars)&nbsp;&nbsp;
